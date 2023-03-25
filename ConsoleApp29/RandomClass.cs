@@ -63,9 +63,13 @@ namespace ConsoleApp29
             {
                 ints.Push(random.Next(0, 300));
             }
-            
-            
-            Console.WriteLine( String.Join(",", ints));
+           int[] ints1= ints.ToArray();
+           Array.Sort(ints1);
+
+            for (int i = 0; i < ints1.Length; i++)
+            {
+                Console.Write(ints1[i] + " ");
+            }
         }
     }
 }

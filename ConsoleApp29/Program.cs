@@ -18,7 +18,7 @@ namespace ConsoleApp29
             Console.WriteLine("Random Queue Sort ");
             randomClass.RandomQueue();
             Console.ReadKey();
-            Console.WriteLine("/////");
+            Console.WriteLine("Random Steck Sort");
             randomClass.RandomSteck();
 
            
